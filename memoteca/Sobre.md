@@ -39,4 +39,6 @@ angular.json possui as configurações do projeto
 
  Add tag na app-componente.html
 
+ https://cursos.alura.com.br/course/angular-explorando-framework/task/110730
+
 
