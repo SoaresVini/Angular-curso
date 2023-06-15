@@ -1,0 +1,13 @@
+section{
+  flex-direction: column;
+  background: url(/assets/imagens-angular/fundo-rodape.png);
+}
+
+section h2{
+color: black;
+}
+
+section p{
+  color: #6BD1FF;
+  text-shadow: rgba(0, 0, 0, 0.664) 2px 2px;
+}
