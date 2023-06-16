@@ -1,2 +1,0 @@
-# Angular-curso
-Treinamento Angular

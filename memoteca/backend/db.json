@@ -1,0 +1,22 @@
+{
+  "pensamentos":[
+  {
+    "id": 1,
+    "conteudo":"Que bom que vc veio",
+    "autoria":"Vini",
+    "modelo":"modelo1"
+  },
+  {
+    "id": 2,
+    "conteudo":"Quero um cafezinnnn",
+    "autoria":"Nay",
+    "modelo":"modelo2"
+  },
+  {
+    "id": 3,
+    "conteudo":"Deixa acontecer naturalmente Eu não quero ver você chorar Deixa que o amor encontre a gente Nosso caso vai eternizar | Deixa acontecer naturalmente Eu não quero ver você chorar Deixa que o amor encontre a gente Nosso caso vai eternizar | Você já disse que me quer Pra toda a vida, eternidade Quando está distante de mim Fica louca de saudade Que a razão do seu viver sou eu" ,
+    "autoria":"Grupo Revelação",
+    "modelo":"modelo"
+  }
+  ]
+}
