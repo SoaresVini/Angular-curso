@@ -136,12 +136,26 @@ Logicas de negocio e fazer as requisiçoes ao servidor
 
 Cria o service = n g s caminho/componente
 
-injectble - pode ser usado em outras class com um metodo 
+injectble - uma classe injetavel pode ser usado em outras class com um metodo 
 
 provededIn - fornecedor - usado em toda a aplicação por estar em 'root'
 
+-----------Injeção de dependência----------------
+
+private http: HttpClient
+
+Acesso a todos os metodos dessa classe. 
+
+A injençãode dependicias é um padrão de projeto, que primeite a classe a solicitat dependicias externas ao invez de criálas
+
+Aplicação -> Requisições htttp(Crud) -> Servidor
+Angular     Chamadas ao servidor
+
+não faz o impir só na classe, no modulo tambem
 
 
- https://cursos.alura.com.br/course/angular-explorando-framework/task/110730
+-----------Observables----------------
+
+observable - observavel - transferência de dados contínua, emite varios dadosdurante sua existencia biblioteca RXJS já funciona por de baico dos panos do angular
 
 
