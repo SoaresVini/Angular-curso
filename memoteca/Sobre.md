@@ -159,3 +159,97 @@ não faz o impir só na classe, no modulo tambem
 observable - observavel - transferência de dados contínua, emite varios dadosdurante sua existencia biblioteca RXJS já funciona por de baico dos panos do angular
 
 
+------------Formularios---------------
+
+Orientados a Templetes e a Dados(furmularios reativos)
+
+Importar o modulo de formularios reativos do angular - ReactiveFormsModule
+
+! - exceção não nulo do type script.
+
+passar o formulario do TS para o form do HTML usando o [formGroup]="formulario"
+
+para associar aos inputs usar o formControlName no lugar do name dos inputs
+
+acessar qualquer controle do formulario pelo get
+
+Validators.varias opções
+
+this.formulario.valid - já da para testar se o formulario é valido ou não
+
+*ngIf="formulario.get('conteudo')?.errors && formulario.get('conteudo')?.touched"
+
+se eu passar um get com o conteudo e chamar um errors, consigo ver se tem algum problema no prenchimento do campo e usando o get tambem e chamado ao final o touche assm que o usuario sair no input ela vai adiconar uma mensagem de erro a baixo do input
+
+Duas formas de configurar o Component para passar as informações para os inputs, uma forma no componente criar e a mais correta no componente editar
+
+
+===Habilitar e desabilitar botoes===
+
+[disabled]="!formulario.valid"
+
+vou passar para essa
+
+----------Botão cancelar está estranho do editar----------------
+
+
+==========httpParams============
+
+Ela representa o corpo da requisição resposta HTTP, incluindo, os parâmetros serializados. Então, vamos refatorar para utilizar essa classe.
+
+HttpParams().set("_page", pagina)
+
+Subistituir o valor 
+
+HttpParams.has()
+
+Informa se o corpo inclui um ou mais valores para um determinado parâmetro.
+HttpParams.get()
+
+Recupera o primeiro valor de um parâmetro.
+HttpParams.getAll()
+
+Recupera todos os valores de um parâmetro.
+HttpParams.keys()
+
+Recupera todos os parâmetros para este corpo da requisição.
+HttpParams.append()
+
+Acrescenta um novo valor aos valores existentes para um parâmetro.
+HttpParams.appendAll()
+
+Constrói um novo corpo com valores anexados para o nome do parâmetro fornecido.
+HttpParams.delete()
+
+Remove um determinado valor ou todos os valores de um parâmetro.
+HttpParams.toString()
+
+Serializa o corpo da requisição em uma string codificada, em que os pares de chave-valor (separados por =) são separados por & s.
+
+
+Limpar os espaços vazios - trim()
+
+Evemto chamado apoś o clique na tecla - (keyup)
+
+Paginação 
+
+.set("_page", parametro)
+.set("_limit", parametro)
+
+
+Pesquisa
+
+params.set("q", filtro)
+
+GET /posts?title=json-server&author=typicode
+  Para filtrar posts pelo título e autor
+
+  .set("posts", "title")
+  .set("comments", body)
+  .set("profile", name)
+
+GET /comments?author.name=typicode
+  Para filtrar comentários pela propriedade ‘name’ do autor, usando o . (ponto) para acessar objetos aninhados.
+
+
+location.reload() - F5
