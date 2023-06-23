@@ -23,7 +23,14 @@ Validaitor Customizado
       multi: true
 
 
-    implements Validaitor
+    Sincronos  implements Validaitor
+
+    A principal diferença entre os validadores síncronos e assíncronos é o retorno que retorno do síncrono é uma instância de objeto de erro, enquanto no assíncrono é um observável do mesmo objeto.
+
+    Assincronos implements AsyncValidator
 
 
     teste unitario - https://cursos.alura.com.br/formacao-angular-aplicacoes-acessiveis-testes-automatizados
+
+
+    
